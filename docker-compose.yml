@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  honeypot:
+    build: .
+    container_name: bad-cms
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - ./logs:/temp/logs

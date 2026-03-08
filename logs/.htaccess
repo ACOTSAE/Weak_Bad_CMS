@@ -1,0 +1,3 @@
+  <FilesMatch "logfile.php">
+    SetHandler text/plain
+  </FilesMatch>
